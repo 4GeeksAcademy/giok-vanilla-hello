@@ -14,12 +14,12 @@ window.onload = function () {
     for (let a = 0; a < adjettivos.length; a++) {
       for (let s = 0; s < sustantivos.length; s++) {
         // Let li = document. createElement ("li");
-        texhtml += `<li>${pronombres[p]}${adjettivos[a]}${sustantivos[s]}.com</li>`
+        textHTML += `<li>${pronombres[p]}${adjettivos[a]}${sustantivos[s]}.com</li>`
       }
     }
   }
 
   let dominios = document.querySelector("#dominios")
   dominios.innerHTML = textHTML
-  console.log("Hello Rigo from the console!");
+  // console.log("Hello Rigo from the console!");
 };
